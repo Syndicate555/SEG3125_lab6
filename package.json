@@ -1,0 +1,19 @@
+{
+  "name": "seg3125_lab6",
+  "version": "1.0.0",
+  "description": "NodeJs practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Syndicate555/SEG3125_lab6.git"
+  },
+  "author": "Saffat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Syndicate555/SEG3125_lab6/issues"
+  },
+  "homepage": "https://github.com/Syndicate555/SEG3125_lab6#readme"
+}
