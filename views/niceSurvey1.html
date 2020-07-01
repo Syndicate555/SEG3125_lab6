@@ -65,31 +65,65 @@
           Now Answer the following questions
         </p>
       </section>
-      <form>
-        <h2>What fruits(s) do you like?</h2>
-        I like:<br />
-        <input type="text" name="fruit" placeholder="fruit name..." required />
+      <form style="text-align: center;">
+        <h2>What do you think is the strongest feature of the UI's design</h2>
+        I like the:<br />
+        <input
+          type="text"
+          name="feature"
+          placeholder="feature name..."
+          required
+        />
         <br />
         <br />
-        <h2>What color(s) do you like?</h2>
-        I like:<br />
-        <input type="checkbox" name="color" value="Red" /> Red<br />
-        <input type="checkbox" name="color" value="Green" /> Green<br />
-        <input type="checkbox" name="color" value="Blue" /> Blue<br />
+        <h2>
+          Of the following, what other aspects do you like about the design?
+        </h2>
+        I like its<br />
+        <input type="checkbox" name="fruit" value="Simplicity" />
+        Simplicity<br />
+        <!-- <input type="checkbox" name="aspect" value="Functionality" />
+        Functionality<br />
+        <input type="checkbox" name="aspect" value="The adaptable color" /> The
+        adaptable color scheme<br />
+        <input
+          type="checkbox"
+          name="aspect"
+          value="Consistency of the layout"
+        />
+        Consistency of the layout<br />
+        <input type="checkbox" name="aspect" value="Relative layout" /> Relative
+        layout between elements<br />
+        <input
+          type="checkbox"
+          name="aspect"
+          value="Important menu items stands out"
+        />
+        Important menu items stands out<br />
+        <br /> -->
+        <h2>
+          Which target audience would you think would have least difficulty
+          navigating the UI
+        </h2>
         <br />
-        <h2>What is your favorite animal?</h2>
-        I like:<br />
         <select name="animal">
-          <option value="Cat" selected="selected">Cat</option>
-          <option value="Dog">Dog</option>
-          <option value="Turtle">Turtle</option>
+          <option value="Children" selected="selected">Children</option>
+          <option value="Teens">Teens</option>
+          <option value="Young Adults">Young Adults</option>
+          <option value="Middle-aged Adults">Middle-aged Adults</option>
+          <option value="Seniors">Seniors</option>
+          <option value="Anyone">Anyone</option>
         </select>
         <br />
         <br />
         <button type="submit" class="btn btn-warning" id="bb">Submit</button>
         <p id="thanks"></p>
       </form>
+      <footer style="color: antiquewhite; text-align: center;">
+        Website designed by <a href="https://saffataziz.site/">Saffat Aziz</a>
+      </footer>
     </div>
     <script src="/assets/action.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
