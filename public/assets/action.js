@@ -1,3 +1,4 @@
+// The controller
 // jQuery that will "listen" to the html survey.html
 $(document).ready(function () {
   $("form").on("submit", function () {
