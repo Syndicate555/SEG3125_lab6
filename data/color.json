@@ -1,5 +1,1 @@
-[
-  { "color": "Red", "count": 10 },
-  { "color": "Green", "count": 9 },
-  { "color": "Blue", "count": 7 }
-]
+[{"color":"the structure","count":2}]
