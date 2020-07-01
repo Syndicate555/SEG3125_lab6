@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SEG 3125 - Lab1</title>
+    <!-- Styles + Fonts + Icons-->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="title">
+        SEG 3125 - Survey on User Interfaces
+      </h1>
+
+      <section class="featured">
+        <p style="color: antiquewhite;">
+          Consider the following UI below (3 spotify songs)
+        </p>
+
+        <div>
+          <iframe
+            src="https://open.spotify.com/embed/track/3biIFGPD3iKAhZxtsKxJok"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/track/093BsOtDzCeZPxqxeLmaXb"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+          <iframe
+            src="https://open.spotify.com/embed/track/1WZ2ZsenEbZqzqvobH6bQT"
+            width="300"
+            height="380"
+            frameborder="0"
+            allowtransparency="true"
+            allow="encrypted-media"
+          ></iframe>
+        </div>
+
+        <a
+          style="color: antiquewhite;"
+          href="https://www.spotify.com/"
+          target="_blank"
+          >www.spotify.com</a
+        >
+        <button class="nav" id="to-page-2">
+          Start Survey
+        </button>
+        <p class="hint"></p>
+      </section>
+
+      <section class="form-part1 hidden">
+        <p>3 questions - time to collect your data! >:)</p>
+
+        <form>
+          <ol>
+            <!-- Question -->
+            <li style="color: antiquewhite;">
+              Of the following, what do you think is the
+              <strong>strongest</strong> aspect of the UI's design?
+              <ul style="color: antiquewhite;">
+                <li style="color: antiquewhite;">
+                  <input type="radio" name="" id="" />
+                  <label>It's simplicity</label>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <label>The adaptable colour scheme</label>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <label>Layout between buttons, album art, etc.</label>
+                </li>
+                <li>
+                  <input type="radio" name="" id="" />
+                  <label
+                    >Functionality (ie. playing a new song pauses the last
+                    song)</label
+                  >
+                </li>
+              </ul>
+            </li>
+            <!-- Question -->
+            <li style="color: antiquewhite;">
+              <p>
+                Of the following, what <strong>other</strong> aspects do you
+                like about the design?
+              </p>
+              <div>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="" id="" />
+                    <label>It's simplicity</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="" id="" />
+                    <label>The adaptable colour scheme</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="" id="" />
+                    <label>Relative layout between elements</label>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <input type="checkbox" name="" id="" />
+                    <label>Functionality</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="" id="" />
+                    <label>Consistency of the layout</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" name="" id="" />
+                    <label>Important menu items stand out</label>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <!-- Question -->
+            <li style="color: antiquewhite;">
+              <p>
+                Which target audience would you think would have least
+                difficulty navigating the UI?
+              </p>
+              <select name="" id="">
+                <option value="children">Children</option>
+                <option value="teens">Teens</option>
+                <option value="young-adults">Young adults</option>
+                <option value="middle-age">Middle age adults</option>
+                <option value="seniors">Seniors</option>
+                <option value="anyone">Anyone</option>
+              </select>
+            </li>
+          </ol>
+        </form>
+
+        <section class="nav">
+          <i id="to-page-1" class="material-icons">arrow_back</i>
+          <i id="to-page-3" class="material-icons">arrow_forward</i>
+        </section>
+        <p class="hint">
+          Use Arrow keys to navigate
+        </p>
+      </section>
+
+      <section class="form-part2 hidden" style="color: antiquewhite;">
+        <form style="color: antiquewhite;">
+          <ol start="4">
+            <!-- Question -->
+            <li>
+              <p>
+                Based on your intuition, are you attracted / repulsed /
+                indifferent by the UI design? Why or why not?
+              </p>
+              <textarea class="comments" cols="100" rows="3"></textarea>
+            </li>
+            <!-- Question -->
+            <li>
+              <p>Extra comments:</p>
+              <textarea class="comments" cols="100" rows="3"></textarea>
+            </li>
+            <!-- Question -->
+            <li>
+              <p>
+                If you were to continue using Spotify, a large contributing
+                factor is because of good UI design.
+              </p>
+              <div class="form-slider-area">
+                <span class="form-slider-extreme">Strongly Disagree</span>
+                <input
+                  class="form-slider"
+                  type="range"
+                  name=""
+                  id=""
+                  min="1"
+                  max="5"
+                  step="1"
+                />
+                <span class="form-slider-extreme">Strongly Agree</span>
+              </div>
+            </li>
+          </ol>
+        </form>
+
+        <h3 class="submit-button" style="color: antiquewhite;">submit</h3>
+
+        <section class="nav">
+          <i id="back-page-2" class="material-icons">arrow_back</i>
+        </section>
+        <p class="hint">
+          Use Arrow keys to navigate
+        </p>
+      </section>
+
+      <section class="submitted hidden">
+        <p class="featured__description" style="color: antiquewhite;">
+          Survey Submitted, thank you for your input
+        </p>
+      </section>
+    </div>
+    <footer style="color: antiquewhite; text-align: center;">
+      Website designed by <a href="https://saffataziz.site/">Saffat Aziz</a>
+    </footer>
+    <br />
+    <br />
+    <br />
+    <footer style="color: antiquewhite; text-align: center;">
+      Alternate Link for this survey
+      <a href="https://seg3125-lab1.netlify.app">here</a>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
