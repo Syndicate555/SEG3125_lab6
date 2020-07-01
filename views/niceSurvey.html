@@ -28,11 +28,11 @@
     <div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
       <h1 style="text-align: center;">SEG 3125 - Survey on User Interfaces</h1>
       <section class="featured">
-        <p style="color: antiquewhite;">
+        <p style="color: antiquewhite; text-align: center;">
           Consider the following UI below (3 spotify songs)
         </p>
 
-        <div>
+        <div style="text-align: center;">
           <iframe
             src="https://open.spotify.com/embed/track/3biIFGPD3iKAhZxtsKxJok"
             width="300"
@@ -59,39 +59,59 @@
           ></iframe>
         </div>
 
-        <a
-          style="color: antiquewhite;"
-          href="https://www.spotify.com/"
-          target="_blank"
-          >www.spotify.com</a
         >
 
-        <p class="hint"></p>
+        <p class="hint" style="text-align: center;">
+          Now Answer the following questions
+        </p>
       </section>
-      <form>
-        <h2>What fruits(s) do you like?</h2>
-        I like:<br />
-        <input type="text" name="fruit" placeholder="fruit name..." required />
+      <form style="text-align: center;">
+        <h2>What do you think is the strongest feature of the UI's design</h2>
+        I like the:<br />
+        <input
+          type="text"
+          name="fruit"
+          placeholder="feature name..."
+          required
+        />
         <br />
         <br />
-        <h2>What color(s) do you like?</h2>
-        I like:<br />
-        <input type="checkbox" name="color" value="Red" /> Red<br />
-        <input type="checkbox" name="color" value="Green" /> Green<br />
-        <input type="checkbox" name="color" value="Blue" /> Blue<br />
+        <h2>
+          Of the following, what other aspects do you like about the design?
+        </h2>
+        I like its<br />
+        <input type="checkbox" name="color" value="Red" /> Simplicity<br />
+        <input type="checkbox" name="color" value="Green" /> Functionality<br />
+        <input type="checkbox" name="color" value="Blue" /> The adaptable color
+        scheme<br />
+        <input type="checkbox" name="color" value="Blue" /> Consistency of the
+        layout<br />
+        <input type="checkbox" name="color" value="Blue" /> Relative layout
+        between elements<br />
+        <input type="checkbox" name="color" value="Blue" /> Important menu items
+        stands out<br />
         <br />
-        <h2>What is your favorite animal?</h2>
-        I like:<br />
+        <h2>
+          Which target audience would you think would have least difficulty
+          navigating the UI
+        </h2>
+        <br />
         <select name="animal">
-          <option value="Cat" selected="selected">Cat</option>
-          <option value="Dog">Dog</option>
-          <option value="Turtle">Turtle</option>
+          <option value="Cat" selected="selected">Children</option>
+          <option value="Dog">Teens</option>
+          <option value="Turtle">Young Adults</option>
+          <option value="Turtle">Middle-aged Adults</option>
+          <option value="Turtle">Seniors</option>
+          <option value="Turtle">Anyone</option>
         </select>
         <br />
         <br />
         <button type="submit" class="btn btn-warning" id="bb">Submit</button>
         <p id="thanks"></p>
       </form>
+      <footer style="color: antiquewhite; text-align: center;">
+        Website designed by <a href="https://saffataziz.site/">Saffat Aziz</a>
+      </footer>
     </div>
     <script src="/assets/action.js"></script>
     <script src="./js/main.js"></script>
