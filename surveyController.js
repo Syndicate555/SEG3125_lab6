@@ -11,7 +11,7 @@ function readData(fileName) {
   return infoRead;
 }
 
-// read the data file
+// write the data file
 function writeData(info, fileName) {
   data = JSON.stringify(info);
   fs.writeFileSync("./data/" + fileName + ".json", data);
