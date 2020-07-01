@@ -1,4 +1,4 @@
-// jQuery that will "listen" to the html niceSurvey.html
+// jQuery that will "listen" to the html survey.html
 $(document).ready(function () {
   $("form").on("submit", function () {
     // var item = $('form input');
