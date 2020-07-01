@@ -25,7 +25,11 @@
   </head>
 
   <body>
-    <div class="container-md p-3 my-3 border bg-dark text-white" id="survey">
+    <div
+      class="container-md p-3 my-3 border bg-dark text-white"
+      style="background-color: black;"
+      id="survey"
+    >
       <h1 style="text-align: center;">SEG 3125 - Survey on User Interfaces</h1>
       <section class="featured">
         <p style="color: antiquewhite; text-align: center;">
@@ -65,9 +69,10 @@
           Now Answer the following questions
         </p>
       </section>
-      <form>
+      <form style="text-align: center;">
         <h2>What do you think is the strongest feature of the UI's design</h2>
         I like the:<br />
+        <br />
         <input
           type="text"
           name="color"
@@ -76,8 +81,10 @@
         />
         <br />
         <br />
-        <h2>What color(s) do you like?</h2>
-        I like:<br />
+        <h2>
+          Of the following, what other aspects do you like about the design?
+        </h2>
+        I like its:<br />
         <input type="checkbox" name="fruit" value="Red" /> Red<br />
         <input type="checkbox" name="fruit" value="Green" /> Green<br />
         <input type="checkbox" name="fruit" value="Blue" /> Blue<br />
@@ -91,7 +98,9 @@
         </select>
         <br />
         <br />
-        <button type="submit" class="btn btn-warning" id="bb">Submit</button>
+        <button type="submit" class="btn btn-success" id="bb">
+          Submit Survey
+        </button>
         <p id="thanks"></p>
       </form>
     </div>
