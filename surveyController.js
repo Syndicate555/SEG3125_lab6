@@ -1,4 +1,4 @@
-// The Model
+// The Controller
 // required packages
 var bodyParser = require("body-parser");
 var urlencodedParser = bodyParser.urlencoded({ extended: false });
